@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// React项目开始
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
