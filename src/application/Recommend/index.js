@@ -4,6 +4,7 @@ import { Content } from "./style";
 import { connect } from "react-redux";
 import { getBannerList, getRecommendList } from "./store/actionCreators";
 import RecommendList from "../../components/list/index.jsx";
+import Loading from '../../baseUI/loading/index';
 
 function Recommend(props) {
   // mock 数据
@@ -40,6 +41,7 @@ function Recommend(props) {
         <Slider bannerList={bannerListJS}></Slider>
         <RecommendList recommendList={recommendListJS}></RecommendList>
       </div>
+      { enterLoading ? <Loading></Loading> : ``}
     </Content>
   );
 }
