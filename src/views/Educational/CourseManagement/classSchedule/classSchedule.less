@@ -1,0 +1,557 @@
+// *********课务管理------课程表部分**********样式
+#classScheduleBox {
+  //课时状态
+  .state1 {
+    background-color: #6ce3b2;
+  }
+  .state2 {
+    background-color: #20a8d8;
+  }
+  .state3 {
+    background-color: #cccccc;
+  }
+  .state4 {
+    background-color: #ff0000;
+  }
+  // 侧边栏的确定按钮
+  .flex--align {
+    .el-button {
+      span {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  .Schedule-box {
+    // height: 66px;
+    // padding-left: 20px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .Schedule-box-height {
+    // height: 66px;
+    margin: 20px 0px;
+  }
+  .appeare-state {
+    cursor: pointer;
+  }
+  // 筛选
+  .tips {
+    // height: 70px;
+    // line-height: 70px;
+    padding-left: 20px;
+    border-left: 1px solid #dddddd;
+    .split-line {
+      float: left;
+      margin: 15px 20px;
+      width: 1px;
+      height: 40px;
+      background: #dddddd;
+    }
+    .tip-item {
+      display: flex;
+      justify-items: center;
+      // float: left;
+      // display: block;
+      .el-input__inner {
+        width: 123px;
+        height: 34px;
+      }
+      .title {
+        margin-right: 10px;
+        font-size: 14px;
+        color: #aaaaaa;
+      }
+      &.search {
+        input {
+          width: 100%;
+          // width: 228px;
+          height: 32px;
+          padding: 10px;
+          // padding-right: 60px;
+          border: 1px solid #dddddd;
+          border-radius: 4px 0 0 4px;
+        }
+        // .el-input__inner {
+        //   border-radius: 4px 0 0 4px;
+        // }
+        .el-input--suffix {
+          .el-input__inner {
+            border-radius: 4px 0 0 4px;
+          }
+        }
+        .el-button {
+          height: 32px;
+          margin-left: -2px;
+          border-radius: 0 4px 4px 0;
+        }
+        // span {
+        //   width: 60px;
+        //   height: 32px;
+        //   line-height: 32px;
+        //   margin-left: -60px;
+        //   text-align: center;
+        //   font-size: 14px;
+        //   display: inline-block;
+        //   background-color: #20a8d8;
+        //   color: #fff;
+        //   border: 1px solid #20a8d8;
+        //   border-radius: 0 4px 4px 0;
+        //   vertical-align: middle;
+        //   cursor: pointer;
+        // }
+      }
+    }
+  }
+  .schedule-left {
+    .el-input--medium .el-input__icon {
+      line-height: 32px;
+    }
+    .week-box {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      .week {
+        .label {
+        }
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        .label {
+        }
+        .operate {
+          width: 32px;
+          height: 23px;
+          line-height: 23px;
+          border-radius: 4px;
+          cursor: pointer;
+          border: 1px solid #aaaaaa;
+          text-align: center;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        .prev {
+        }
+        .next {
+        }
+        .today {
+          border-radius: 4px;
+          border: 1px solid #aaaaaa;
+          text-align: center;
+          margin-left: 5px;
+          margin-right: 20px;
+          padding: 0 5px;
+          cursor: pointer;
+          &.cur {
+            background-color: #20a8d8;
+            color: #fff;
+            border: 1px solid #20a8d8;
+          }
+        }
+      }
+    }
+  }
+  .schedule-right {
+    ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      li {
+        margin-right: 20px;
+        span {
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .tabList {
+    .appeare-state {
+      ul {
+        padding: 10px;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 14px;
+        li {
+          text-align: left;
+          margin-bottom: 5px;
+          i {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  //课程详情弹窗
+  .course-prop-box {
+    .el-dialog__body {
+      // padding-top: 0 !important;
+      padding-top: 10px;
+    }
+    .el-dialog__body .title {
+      padding-left: 0 !important;
+    }
+    .el-dialog__footer {
+      padding: 16px !important;
+      height: 60px;
+    }
+    .dialog-footer {
+      height: 30px;
+      line-height: 30px;
+    }
+    .igrone {
+      border: 1px solid #e71f1f;
+      span {
+        color: #e71f1f;
+      }
+    }
+  }
+  .create-box {
+    .title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      h3 {
+        font-size: 24px;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        margin-right: 30px;
+      }
+      span{
+        padding-top: 6px;
+      }
+    }
+    .info {
+      ul {
+        li {
+          margin-bottom: 10px;
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .conflict-list {
+    .tit {
+      font-size: 14px;
+      border-left: 3px solid #20a8d8;
+      padding-left: 5px;
+      margin-bottom: 13px;
+    }
+    .conflict-table {
+      .el-table--border th {
+        background-color: #f0f4f9;
+        border-right: none;
+      }
+    }
+    .el-table__body-wrapper {
+      height: 120px;
+      overflow-y: auto;
+    }
+    .el-table--enable-row-transition .el-table__body td:first-child {
+      // color: #ff0000;
+    }
+  }
+  .course-comm {
+    position: relative;
+    .cancle-content {
+      .cancle-reason {
+        .el-form-item--medium .el-form-item__label {
+          padding-right: 0;
+        }
+      }
+      .remarks {
+        .el-form-item--medium .el-form-item__label {
+          width: 70px;
+          text-align: right;
+          padding-right: 0;
+        }
+      }
+    }
+    .cancle-content {
+      .top-time {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        .time {
+          width: 135px;
+          height: 32px;
+        }
+
+        .el-date-editor.el-input,
+        .el-date-editor.el-input__inner {
+          width: 135px;
+          height: 34px;
+        }
+        .el-input--medium .el-input__inner {
+          width: 135px;
+          height: 32px;
+          line-height: 32px;
+          padding-left: 8px;
+        }
+
+        .el-input__prefix {
+          left: 80%;
+          &::before {
+            position: absolute;
+            top: 0px;
+            content: "";
+            width: 1px;
+            height: 32px;
+            background-color: #dcdfe6;
+          }
+        }
+        .el-input--medium .el-input__icon {
+          line-height: 33px;
+        }
+      }
+      .table-view {
+        .el-table th {
+          background-color: #f0f4f9;
+          border-right: none;
+        }
+        .appeare-state {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          ul {
+            width: 140px;
+            padding: 10px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 14px;
+            margin-right: 7px;
+            li {
+              text-align: left;
+              margin-bottom: 5px;
+              i {
+                padding-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    //btn
+    .bun-box {
+      position: absolute;
+      right: 0;
+      top: -70px;
+    }
+  }
+  //tab切换第1个-调整上课日期
+  .tab-list1 {
+    .el-form-item--medium .el-form-item__label {
+      position: relative;
+      &::before {
+        content: "*";
+        position: absolute;
+        color: #e71f1f;
+        left: -10px;
+        top: 3px;
+      }
+    }
+  }
+  //tab切换第二个-调整上课时间
+  .tab-list2 {
+    .tableClassChoose {
+      .el-table--border th {
+        background-color: #f0f4f9;
+        border-right: none;
+      }
+    }
+    // .el-form-item__label {
+    //   position: relative;
+    //   &::before {
+    //     content: "*";
+    //     position: absolute;
+    //     color: #e71f1f;
+    //     left: -10px;
+    //     top: 3px;
+    //   }
+    // }
+    .comm-time {
+      label {
+        position: relative;
+        &::before {
+          content: "*";
+          position: absolute;
+          color: #e71f1f;
+          left: -10px;
+          top: -8px;
+        }
+      }
+      .el-input--medium .el-input__inner {
+        border: none !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 50px !important;
+        border-bottom: 1px solid #ddd;
+        // &::after{
+        //   content: '--';
+        //   position: absolute;
+        //   bottom:0;
+        // }
+      }
+      .el-date-editor.el-input,
+      .el-date-editor.el-input__inner {
+        width: 50px !important;
+        height: 27px !important;
+        line-height: 27px !important;
+        margin-left: 10px;
+        // position: relative;
+        font-size: 15px;
+        border-bottom: 1px solid #ddd;
+
+        // &::before{
+        //   content: '--';
+        //   width: 100%;
+        //   position: absolute;
+        //   bottom: -6px;
+        //   left: 6px;
+        //   height:2px;
+        // }
+        // &::after{
+        //   content: '--';
+        //   width: 100%;
+        //   position: absolute;
+        //   bottom: -6px;
+        //   right: 0px;
+        //   height:2px;
+        // }
+      }
+      .el-input__icon:after {
+        display: none;
+      }
+      .el-input--medium .el-input__icon {
+        width: 0 !important;
+        height: 0 !important;
+        line-height: 0 !important;
+        display: none;
+      }
+      .el-icon-time:before {
+        content: "" !important;
+      }
+    }
+  }
+  .tab-list3 {
+    .changeTeacher {
+      .el-table th {
+        background-color: #f0f4f9;
+        border-right: none;
+        color: #92a3b7;
+      }
+      .el-table--enable-row-transition .el-table__body td {
+        color: #333;
+      }
+      .cell {
+        .el-radio {
+          width: 100%;
+          text-align: center;
+          .el-radio__input {
+            // margin-left: -40px;
+            // padding-right: 20px;
+          }
+          .el-radio__input.is-checked + .el-radio__label {
+            color: #333;
+          }
+        }
+        //时间安排
+        .hour {
+          .dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            margin-right: 5px;
+            border-radius: 50%;
+          }
+        }
+      }
+      .el-table--border th,
+      .el-table--border td {
+        border-right: none;
+      }
+    }
+  }
+  //点名上课
+  .classSchedule {
+    .rollcall-list {
+      .bulle-tableDiv {
+        .el-input {
+          width: 85px !important;
+        }
+        .el-input__inner {
+          border: none !important;
+        }
+        .el-input__suffix {
+        }
+      }
+    }
+  }
+  // 切换 导航样式
+  .page-tab--box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    .tab-nav {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      .item {
+        height: 65px;
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 65px;
+        color: #333;
+        position: relative;
+        &.router-link-exact-active::after {
+          content: "";
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: #20a8d8;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1367px) {
+  #classScheduleBox .Schedule-box-add .schedule-left .tips {
+    margin-bottom: 20px;
+  }
+}

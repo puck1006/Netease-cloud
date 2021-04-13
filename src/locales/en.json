@@ -1,0 +1,15 @@
+{
+    "views": {
+        "Permission": {
+            "havePermission": {
+                "521jeqwja4w0": "您即將跳轉到教務管理系統",
+                "521jeqwjbu40": "立刻前往",
+                "521jeth1rgo0": "秒後自動跳轉"
+            },
+            "noPermission": {
+                "521jewqb87k0": "無教務系統權限，請聯系管理員開通",
+                "521jewqbaf00": "立刻前往"
+            }
+        }
+    }
+}

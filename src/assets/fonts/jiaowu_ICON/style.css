@@ -1,0 +1,594 @@
+@font-face {
+  font-family: 'jiaowu_ICON';
+  src:  url('fonts/jiaowu_ICON.eot?jazmqc');
+  src:  url('fonts/jiaowu_ICON.eot?jazmqc#iefix') format('embedded-opentype'),
+    url('fonts/jiaowu_ICON.ttf?jazmqc') format('truetype'),
+    url('fonts/jiaowu_ICON.woff?jazmqc') format('woff'),
+    url('fonts/jiaowu_ICON.svg?jazmqc#jiaowu_ICON') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jiaowu_ICON' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--2-3:before {
+  content: "\e980";
+  color: #00a6ff;
+}
+.icon--3:before {
+  content: "\e981";
+  color: #ddd;
+}
+.icon-jwgl .path1:before {
+  content: "\e973";
+  color: rgb(138, 150, 188);
+}
+.icon-jwgl .path2:before {
+  content: "\e974";
+  margin-left: -1.052734375em;
+  color: rgb(228, 241, 255);
+}
+.icon-jwgl .path3:before {
+  content: "\e975";
+  margin-left: -1.052734375em;
+  color: rgb(0, 166, 255);
+}
+.icon-px .path1:before {
+  content: "\e976";
+  color: rgb(228, 241, 255);
+}
+.icon-px .path2:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(0, 166, 255);
+}
+.icon-px .path3:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(138, 150, 188);
+}
+.icon-qbk .path1:before {
+  content: "\e979";
+  color: rgb(228, 241, 255);
+}
+.icon-qbk .path2:before {
+  content: "\e97a";
+  margin-left: -1.0498046875em;
+  color: rgb(138, 150, 188);
+}
+.icon-qbk .path3:before {
+  content: "\e97b";
+  margin-left: -1.0498046875em;
+  color: rgb(255, 255, 255);
+}
+.icon-qbk .path4:before {
+  content: "\e97c";
+  margin-left: -1.0498046875em;
+  color: rgb(255, 255, 255);
+}
+.icon-qbk .path5:before {
+  content: "\e97d";
+  margin-left: -1.0498046875em;
+  color: rgb(0, 166, 255);
+}
+.icon-qbk .path6:before {
+  content: "\e97e";
+  margin-left: -1.0498046875em;
+  color: rgb(242, 244, 247);
+}
+.icon-qbk .path7:before {
+  content: "\e97f";
+  margin-left: -1.0498046875em;
+  color: rgb(242, 244, 247);
+}
+.icon-alarm:before {
+  content: "\e900";
+  color: #ff3569;
+}
+.icon-baobiao:before {
+  content: "\e901";
+  color: #4c5e95;
+}
+.icon-bk:before {
+  content: "\e902";
+  color: #4c5e95;
+}
+.icon-bmanyi:before {
+  content: "\e903";
+  color: #ff9e02;
+}
+.icon-boy:before {
+  content: "\e904";
+  color: #00a6ff;
+}
+.icon-checkbox_checked:before {
+  content: "\e905";
+  color: #00a6ff;
+}
+.icon-checkbox_unchecked:before {
+  content: "\e906";
+  color: #b8c3e6;
+}
+.icon-close_video:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-close:before {
+  content: "\e908";
+  color: #ff3569;
+}
+.icon-collected:before {
+  content: "\e909";
+  color: #ff9e02;
+}
+.icon-dbks:before {
+  content: "\e90a";
+  color: #00a6ff;
+}
+.icon-dsks:before {
+  content: "\e90b";
+  color: #1de5c1;
+}
+.icon-dz:before {
+  content: "\e90c";
+  color: #ff3569;
+}
+.icon-finish:before {
+  content: "\e90d";
+  color: #00a6ff;
+}
+.icon-gb:before {
+  content: "\e90e";
+  color: #00a6ff;
+}
+.icon-gender_checked:before {
+  content: "\e90f";
+  color: #4c5e95;
+}
+.icon-gender_uncheck .path1:before {
+  content: "\e910";
+  color: rgb(218, 221, 233);
+}
+.icon-gender_uncheck .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-girl:before {
+  content: "\e912";
+  color: #ff3569;
+}
+.icon-gjsx:before {
+  content: "\e913";
+  color: #00a6ff;
+}
+.icon-gkk:before {
+  content: "\e914";
+  color: #4c5e95;
+}
+.icon-grxinxi:before {
+  content: "\e915";
+  color: #4c5e95;
+}
+.icon-grzx:before {
+  content: "\e916";
+  color: #00a6ff;
+}
+.icon-hy:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-icon_arrow:before {
+  content: "\e918";
+  color: #8a96bc;
+}
+.icon-jt:before {
+  content: "\e919";
+  color: #00a6ff;
+}
+.icon-jwjhzk:before {
+  content: "\e91a";
+  color: #4c5e95;
+}
+.icon-jxz .path1:before {
+  content: "\e91b";
+  color: rgb(255, 255, 255);
+}
+.icon-jxz .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.icon-jxz1:before {
+  content: "\e91d";
+  color: #00a6ff;
+}
+.icon-left:before {
+  content: "\e91e";
+  color: #00a6ff;
+}
+.icon-manyi:before {
+  content: "\e91f";
+  color: #ff9e02;
+}
+.icon-ml:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-MP3 .path1:before {
+  content: "\e921";
+  color: rgb(1, 200, 165);
+}
+.icon-MP3 .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-MP3 .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-MP3 .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-MP3 .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-MP3 .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-MP3 .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-MP3 .path8:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-MP3 .path9:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-MP3 .path10:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(18, 226, 188);
+}
+.icon-MP3 .path11:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-no-_watching:before {
+  content: "\e92c";
+  color: #dadde9;
+}
+.icon-photo:before {
+  content: "\e92d";
+  color: #dadde9;
+}
+.icon-ppt:before {
+  content: "\e92e";
+  color: #4c5e95;
+}
+.icon-PPT .path1:before {
+  content: "\e92f";
+  color: rgb(255, 126, 0);
+}
+.icon-PPT .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-PPT .path3:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-PPT .path4:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-PPT .path5:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-PPT .path6:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-PPT .path7:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-PPT .path8:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-PPT .path9:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-PPT .path10:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(255, 158, 2);
+}
+.icon-PPT .path11:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-qhyuyan:before {
+  content: "\e93a";
+  color: #4c5e95;
+}
+.icon-qp:before {
+  content: "\e93b";
+  color: #fff;
+}
+.icon-qy:before {
+  content: "\e93c";
+  color: #fff;
+}
+.icon-right:before {
+  content: "\e93d";
+  color: #00a6ff;
+}
+.icon-rl:before {
+  content: "\e93e";
+  color: #8a96bc;
+}
+.icon-shouqi_right:before {
+  content: "\e93f";
+  color: #4c5e95;
+}
+.icon-shouqi:before {
+  content: "\e940";
+  color: #00a6ff;
+}
+.icon-sound_play:before {
+  content: "\e941";
+  color: #4c5e95;
+}
+.icon-sound_unplay:before {
+  content: "\e942";
+  color: #4c5e95;
+}
+.icon-sound:before {
+  content: "\e943";
+  color: #4c5e95;
+}
+.icon-sq:before {
+  content: "\e944";
+  color: #8a96bc;
+}
+.icon-sxuanxiala:before {
+  content: "\e945";
+  color: #4c5e95;
+}
+.icon-sy:before {
+  content: "\e946";
+  color: #4c5e95;
+}
+.icon-sz:before {
+  content: "\e947";
+  color: #4c5e95;
+}
+.icon-tips:before {
+  content: "\e948";
+  color: #ff3569;
+}
+.icon-tzxiaoxi .path1:before {
+  content: "\e949";
+  color: rgb(255, 158, 2);
+}
+.icon-tzxiaoxi .path2:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-uncollect:before {
+  content: "\e94b";
+  color: #ff9e02;
+}
+.icon-unstart1 .path1:before {
+  content: "\e94c";
+  color: rgb(191, 191, 191);
+}
+.icon-unstart1 .path2:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.icon-video:before {
+  content: "\e94e";
+  color: #4c5e95;
+}
+.icon-volume:before {
+  content: "\e94f";
+  color: #fff;
+}
+.icon-warn:before {
+  content: "\e950";
+  color: #fff;
+}
+.icon-watched:before {
+  content: "\e951";
+  color: #1de5c1;
+}
+.icon-watching .path1:before {
+  content: "\e952";
+  color: rgb(255, 158, 2);
+}
+.icon-watching .path2:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-watching .path3:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(255, 158, 2);
+}
+.icon-wdbiji:before {
+  content: "\e955";
+  color: #4c5e95;
+}
+.icon-wdbj:before {
+  content: "\e956";
+  color: #4c5e95;
+}
+.icon-wdjxsp:before {
+  content: "\e957";
+  color: #4c5e95;
+}
+.icon-wdpz:before {
+  content: "\e958";
+  color: #4c5e95;
+}
+.icon-wdsc:before {
+  content: "\e959";
+  color: #4c5e95;
+}
+.icon-wdz:before {
+  content: "\e95a";
+  color: #ff3569;
+}
+.icon-word .path1:before {
+  content: "\e95b";
+  color: rgb(0, 135, 255);
+}
+.icon-word .path2:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-word .path3:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-word .path4:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-word .path5:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-word .path6:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-word .path7:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-word .path8:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-word .path9:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(218, 221, 233);
+}
+.icon-word .path10:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 166, 255);
+}
+.icon-word .path11:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-wrong:before {
+  content: "\e966";
+  color: #ff3569;
+}
+.icon-xiaoxhdj:before {
+  content: "\e967";
+  color: #4c5e95;
+}
+.icon-xiaoxi:before {
+  content: "\e968";
+  color: #4c5e95;
+}
+.icon-xtxiaoxi .path1:before {
+  content: "\e969";
+  color: rgb(0, 166, 255);
+}
+.icon-xtxiaoxi .path2:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ybks:before {
+  content: "\e96b";
+  color: #ff3569;
+}
+.icon-ysks:before {
+  content: "\e96c";
+  color: #ff9e02;
+}
+.icon-yw:before {
+  content: "\e96d";
+  color: #ff9e02;
+}
+.icon-zhankai_right:before {
+  content: "\e96e";
+  color: #4c5e95;
+}
+.icon-zhxinxi:before {
+  content: "\e96f";
+  color: #4c5e95;
+}
+.icon-zk:before {
+  content: "\e970";
+  color: #00a6ff;
+}
+.icon-zxkc:before {
+  content: "\e971";
+  color: #4c5e95;
+}
+.icon-zycz:before {
+  content: "\e972";
+  color: #4c5e95;
+}

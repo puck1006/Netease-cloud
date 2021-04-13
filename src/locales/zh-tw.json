@@ -1,0 +1,81 @@
+{
+    "src": {
+        "views": {
+            "Permission": {
+                "havePermission": {
+                    "521kbt5n8b40": "您即將跳轉到教務管理系統",
+                    "521kbt5na6c0": "秒後自動跳轉",
+                    "521kbt5naho0": "立刻前往"
+                },
+                "noPermission": {
+                    "521kconwl9k0": "無教務系統權限，請聯系管理員開通",
+                    "521kconwmdo0": "立刻前往"
+                }
+            },
+            "myCenter": {
+                "currentCourse": {
+                    "521ke6o5sak0": "職業成長",
+                    "521ke6o5tfc0": "通識課"
+                },
+                "myCollect": {
+                    "521kerjxumo0": "備課",
+                    "521kerjxvx40": "培訓"
+                }
+            }
+        }
+    },
+    "easx": {
+        "src": {
+            "main": {
+                "521jgst8l3k0": "加載中……",
+                "521jgst8n380": "請重新登錄！",
+                "521jgst8ngo0": "加載超時"
+            }
+        }
+    },
+    "views": {
+        "Interesting": {
+            "prepareLessons": {
+                "myClass": {
+                    "521kehovqs80": "進行中",
+                    "521kehovs9o0": "未開始",
+                    "521kehovsp00": "全部"
+                },
+                "preLessonDetais": {
+                    "521kg9bt50c0": "課件",
+                    "521kg9bt56g0": "在線編輯教案",
+                    "521kg9bt5ag0": "個性化教案",
+                    "521kg9bt5eo0": "課程資料"
+                },
+                "preLessonDetaisBox": {
+                    "courseWare": {
+                        "526wte05xws0": "提交",
+                        "526wte05zvg0": "確定",
+                        "526wte0606o0": "取消",
+                        "526wte060ec0": "目錄中每項點擊",
+                        "526wte060ls0": "阿裏雲播放器介紹",
+                        "526wte060sw0": "趣拍演示視頻",
+                        "526wte0611s0": "雲棲大會",
+                        "526wte061dg0": "播放暫停",
+                        "526wte061kg0": "播放完畢",
+                        "526wte061qk0": "播放開始"
+                    }
+                }
+            },
+            "Index": {
+                "classReminder": {
+                    "521kfhe65hs0": "全部",
+                    "521kfhe67300": "待備課",
+                    "521kfhe67e80": "備課延遲",
+                    "521kfhe67k40": "上課"
+                }
+            },
+            "Report": {
+                "report": {
+                    "521kh1xeq8o0": "校園統計報表",
+                    "521kh1xer5k0": "教師統計報表"
+                }
+            }
+        }
+    }
+}

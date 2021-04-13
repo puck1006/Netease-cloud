@@ -1,0 +1,720 @@
+// 校务的主题色
+@schoolBaseColor: #00a6ff;
+@school243: #24356a;
+
+.el-header {
+  padding: 0 !important;
+}
+
+// loading自定义动画加载
+.el-loading-mask.is-fullscreen {
+  z-index: 99999 !important;
+}
+
+.el-loading-spinner .circular {
+  width: 42px;
+  height: 42px;
+  animation: loading-rotate 2s linear infinite;
+  display: none;
+}
+
+.el-loading-spinner {
+  background: url("../images/loading.gif") no-repeat;
+  background-size: 120px 120px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 48% !important;
+  left: 47%;
+}
+
+.el-loading-spinner .el-loading-text {
+  text-align: left;
+  padding-top: 110px;
+  font-size: 16px !important;
+  color: #fff !important;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+/* 修改elementui 自带的样式 */
+/*按钮*/
+body .el-button--mini {
+  padding: 8px 20px;
+}
+
+body .el-button.is-disabled,
+.el-button.is-disabled:hover,
+.el-button.is-disabled:focus {
+  color: #adb2c2;
+}
+
+//按钮大部分高度是30px
+/*input,select*/
+body .el-input__inner {
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+}
+
+body .el-input__icon {
+  height: 36px;
+  line-height: 36px;
+}
+
+.el-textarea__inner {
+  min-height: 100% !important;
+}
+
+body .search-btn {
+  padding: 11px 20px;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.Inquire-box {
+  .ipt-box {
+    .el-input__inner {
+      border-radius: 4px 0 0 4px !important;
+    }
+  }
+}
+
+/*线*/
+.lines {
+  width: 1px;
+  height: 43px;
+  background: rgba(221, 221, 221, 1);
+}
+
+/* 灰色的线 */
+.bottom-line-f2f7 {
+  border-bottom: 1px solid #f2f7f9;
+}
+
+/* display:flex */
+.flex {
+  display: flex;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-sa {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-al {
+  display: flex;
+  align-items: center;
+}
+
+.flex-al-ce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex-coc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-toend {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+// .content-box {
+//   margin: 0px;
+// }
+
+// 编辑列样式
+.setting-box {
+  .el-transfer__buttons {
+    padding: 0 12px;
+
+    .el-transfer__button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 50%;
+      color: #ffffff;
+    }
+  }
+
+  .el-transfer-panel__item.el-checkbox {
+    min-width: 100px;
+  }
+
+  .el-transfer__button:first-child {
+    margin-bottom: 10px;
+  }
+
+  .el-dialog__header {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .oprate {
+    position: absolute;
+    top: 13px;
+    right: 55px;
+  }
+
+  .el-transfer__button.is-disabled {
+    border: 1px solid #dcdfe6;
+    background-color: #f5f7fa;
+    color: #909399;
+  }
+}
+
+// 表格无内容状态样式
+body .el-table__empty-text {
+  line-height: 21px;
+  font-size: 16px;
+  color: #333333;
+}
+
+body .el-table__empty-block {
+  min-width: 100% !important;
+}
+
+body .empty-box {
+  margin: 20% auto;
+
+  .icon {
+    display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url("../images/icon-empty.svg") no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+// 表格表头样式
+.el-table thead tr th {
+  background: #f9fcff;
+  color: #8a96bc;
+  // font-weight: bold;
+}
+
+body .noBorderTableCont .el-table thead tr th {
+  color: #8a96bc;
+}
+
+// 表单必填样式
+.tag-must>label {
+  font-family: "element-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  // line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tag-must>label:before {
+  content: "*";
+  color: #ff1010;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+/* 表单里的label统一颜色 */
+.el-form-item__label {
+  color: #aaaaaa;
+}
+
+/* 中间弹窗 小弹窗 - 底部 */
+.small-dialog {
+  .el-dialog__title {
+    color: #24356a;
+    font-size: 16px;
+  }
+
+  .el-dialog__header {
+    border-bottom: 1px solid #dddddd;
+    padding-top: 10px;
+  }
+
+  //中间弹窗右上的按钮定位
+  .dialog-btn {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+
+  .el-dialog__footer {
+    background: rgba(246, 249, 252, 1);
+    border-top: 1px solid #dddddd;
+    padding-bottom: 10px;
+  }
+}
+
+/*  */
+/* 侧边栏-右边弹窗 */
+.slider-footer--bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+  border-top: 1px solid #ddd;
+}
+
+.pop-slider--box {
+  .pop-slider--title {
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    background: #f6f9fc;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-size: 16px;
+
+    // border-bottom: 1px solid #ddd;
+    .close {
+      font-size: 20px;
+      font-weight: normal;
+      color: #5c6075;
+      cursor: pointer;
+    }
+  }
+}
+
+// 侧边栏弹窗
+body .el-drawer.rtl {
+  top: 60px;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+}
+
+body .pop-slider--box {
+  .el-drawer__header {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    display: flex;
+    background: #f6f9fc;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 0px;
+
+    > :first-child {
+      outline-style: none;
+      outline-color: white;
+    }
+  }
+
+  .el-drawer__body {
+    // position: relative;
+    font-size: 14px;
+  }
+
+  .slider-btn {
+    position: absolute;
+    top: 11px;
+    right: 50px;
+  }
+}
+
+body .el-menu {
+  border-right: none;
+}
+
+//分页-高度
+body .el-pagination .el-input__inner {
+  height: 28px;
+  line-height: 28px;
+}
+
+body .el-pagination .el-input__suffix .el-input__suffix-inner .el-select__caret {
+  height: 28px;
+  line-height: 28px;
+}
+
+// input样式
+body .el-date-editor.el-input__inner {
+  width: 100% !important;
+}
+
+// textarea样式
+body .el-textarea__inner {
+  // height: 100px !important;
+  min-height: 80px !important;
+}
+
+// 多选日期 默认样式修改
+body .el-date-editor .el-range-separator {
+  width: 15%;
+  line-height: 28px;
+}
+
+body .el-date-editor .el-range__icon {
+  line-height: 36px;
+}
+
+// 下拉菜单样式
+body .el-dropdown-menu__item {
+  line-height: 28px;
+}
+
+// body .el-input--prefix .el-input__inner{
+//   padding-right: 30px;
+//   padding-left: 15px;
+// }
+// body .el-input__prefix{
+//   left: auto;
+//   right: 5px;
+// }
+.height100 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.height50 {
+  height: 50px;
+}
+
+// 上边框 线
+.bt_EBEEF5 {
+  border-top: 1px solid #ebeef5;
+}
+
+.bb_ddd {
+  border-bottom: 1px solid #ddd;
+}
+
+.dsplay {
+  display: inline-block;
+}
+
+// 头部 切换 页面
+.page-head__nav_line {
+  border-bottom: 1px solid #ddd;
+}
+
+// 头部小提示
+.head-tips {
+  line-height: 24px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+
+  .s-line {
+    display: inline-block;
+    margin: 0 8px;
+    width: 1px;
+    height: 24px;
+    background: #dddddd;
+  }
+}
+
+.overflow_scroll {
+  overflow: auto;
+}
+
+/*修改滚动条样式*/
+.overflow_scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
+  /**/
+}
+
+.overflow_scroll::-webkit-scrollbar-track {
+  background: #f2f3f9;
+  border-radius: 2px;
+}
+
+.overflow_scroll ::-webkit-scrollbar-thumb {
+  background: #bcc1d5;
+  border-radius: 10px;
+}
+
+// 页面头部按钮
+.right-btn {
+  position: absolute;
+  top: 68px;
+  right: 10px;
+}
+
+.right-mode {
+  position: absolute;
+  top: 130px;
+  right: 10px;
+}
+
+// tab底下的那根线
+.flex-warp-line {
+  border-bottom: 1px solid #dadde9;
+}
+
+// wrapper 页面内容超过一页 头部原生flex导致高度不生效,全局解决办法
+
+body .pop-slider--box .el-drawer__header {
+  display: block !important;
+  position: relative;
+}
+
+.el-drawer__container .el-drawer__header .el-drawer__close-btn {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+// 校务专用样式
+.app-school {
+
+  /* 橙色的线 */
+  .left-line-orange {
+    width: 4px;
+    height: 24px;
+    background: @schoolBaseColor;
+    display: inline-block;
+  }
+
+  // button text的样式
+  .el-button--text {
+    color: @schoolBaseColor;
+    padding: 0;
+  }
+
+  //表格分页的样式
+  .el-pager li.active {
+    color: @schoolBaseColor;
+  }
+
+  .page-head__navlist {
+    display: flex;
+
+    .page-head__navlist-item {
+      margin-right: 40px;
+      align-items: center;
+      font-size: 14px;
+      color: @school243;
+      position: relative;
+      cursor: pointer;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.router-link-exact-active {
+        color: @schoolBaseColor;
+
+        &:after {
+          content: "";
+          position: absolute;
+          bottom: -15px;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          background-color: @schoolBaseColor;
+        }
+      }
+    }
+
+    .router-link-active {
+      color: @schoolBaseColor;
+    }
+
+    .router-link-active:after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: @schoolBaseColor;
+    }
+  }
+
+  // 进度条样式
+  .progress {
+    .out-progress {
+      width: 80px;
+      height: 8px;
+      border-radius: 4px;
+      background: #f2f4f7;
+
+      .inner-progress {
+        height: 8px;
+        border-radius: 4px;
+        background: @schoolBaseColor;
+      }
+    }
+  }
+
+  //环形进度条样式
+  .progress-au {
+    .out-progress {
+      width: 84px;
+      height: 12px;
+      border-radius: 12px;
+      background: rgba(221, 221, 221, 1);
+
+      .inner-progress {
+        height: 12px;
+        border-radius: 12px;
+        background: @schoolBaseColor;
+      }
+    }
+  }
+
+  // 环形图
+  .ring-loading {
+    position: relative;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+
+    .percent-circle {
+      position: absolute;
+      height: 100%;
+      background: @schoolBaseColor;
+      overflow: hidden;
+    }
+
+    .percent-circle-right {
+      right: 0;
+      width: 45px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 45px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 45px;
+    }
+
+    .percent-circle-right .right-content {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      transform-origin: left center;
+      transform: rotate(0deg);
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 45px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 45px;
+      background: #f2f4f7;
+    }
+
+    .percent-circle-left {
+      width: 45px;
+      border-bottom-left-radius: 45px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 45px;
+      border-top-right-radius: 0px;
+    }
+
+    .percent-circle-left .left-content {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      transform-origin: right center;
+      transform: rotate(0deg);
+      border-bottom-left-radius: 45px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 45px;
+      border-top-right-radius: 0px;
+      background: #f2f4f7;
+    }
+
+    .text-circle {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80%;
+      width: 80%;
+      left: 10%;
+      top: 10%;
+      font-size: 12px;
+      text-align: center;
+      border-radius: 100%;
+      background: #fff;
+      line-height: 17px;
+      color: #8a96bc;
+    }
+  }
+
+  // 文件上传步骤进度条样式
+  .steps-pop {
+    display: flex;
+    justify-content: center;
+
+    .el-step__icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    .el-step__title {
+      font-size: 14px;
+    }
+
+    .el-step__head.is-success {
+      color: #fff;
+      border-color: @schoolBaseColor;
+
+      .el-step__icon {
+        background: @schoolBaseColor;
+      }
+    }
+
+    .el-step__head.is-process {
+      color: #aaa;
+      border-color: #aaa;
+    }
+
+    .el-step__title.is-process {
+      color: #aaa;
+    }
+
+    .el-step__line {
+      background-color: #aaa;
+    }
+
+    .el-step__title.is-success {
+      color: @schoolBaseColor;
+    }
+  }
+}

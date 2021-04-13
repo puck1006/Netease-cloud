@@ -1,0 +1,91 @@
+{
+    "src": {
+        "views": {
+            "Permission": {
+                "havePermission": {
+                    "521kbt5n8b40": "您即将跳转到教务管理系统",
+                    "521kbt5na6c0": "秒后自动跳转",
+                    "521kbt5naho0": "立刻前往"
+                },
+                "noPermission": {
+                    "521kconwl9k0": "无教务系统权限，请联系管理员开通",
+                    "521kconwmdo0": "立刻前往"
+                }
+            },
+            "myCenter": {
+                "currentCourse": {
+                    "521ke6o5sak0": "职业成长",
+                    "521ke6o5tfc0": "通识课"
+                },
+                "myCollect": {
+                    "521kerjxumo0": "备课",
+                    "521kerjxvx40": "培训"
+                }
+            }
+        }
+    },
+    "easx": {
+        "src": {
+            "main": {
+                "521jgst8l3k0": "加載中……",
+                "521jgst8n380": "請重新登錄！",
+                "521jgst8ngo0": "加載超時"
+            }
+        }
+    },
+    "views": {
+        "Interesting": {
+            "prepareLessons": {
+                "myClass": {
+                    "521kehovqs80": "进行中",
+                    "521kehovs9o0": "未开始",
+                    "521kehovsp00": "全部"
+                },
+                "preLessonDetais": {
+                    "521kg9bt50c0": "课件",
+                    "521kg9bt56g0": "在线编辑教案",
+                    "521kg9bt5ag0": "个性化教案",
+                    "521kg9bt5eo0": "课程资料"
+                },
+                "preLessonDetaisBox": {
+                    "courseWare": {
+                        "526wte05xws0": "提交",
+                        "526wte05zvg0": "确定",
+                        "526wte0606o0": "取消",
+                        "526wte060ec0": "目录中每项点击",
+                        "526wte060ls0": "阿里云播放器介绍",
+                        "526wte060sw0": "趣拍演示视频",
+                        "526wte0611s0": "云栖大会",
+                        "526wte061dg0": "播放暂停",
+                        "526wte061kg0": "播放完毕",
+                        "526wte061qk0": "播放开始"
+                    }
+                }
+            },
+            "Index": {
+                "classReminder": {
+                    "521kfhe65hs0": "全部",
+                    "521kfhe67300": "待备课",
+                    "521kfhe67e80": "备课延迟",
+                    "521kfhe67k40": "上课"
+                }
+            },
+            "Report": {
+                "report": {
+                    "521kh1xeq8o0": "班级统计报表",
+                    "521kh1xer5k0": "教师统计报表"
+                }
+            }
+        },
+        "Educational": {
+            "EducationalReport": {
+                "reportBox": {
+                    "classReport": {
+                        "55twjy1pezg0": "班级名称、别称、编号检索",
+                        "55twjy1phsc0": "操作"
+                    }
+                }
+            }
+        }
+    }
+}
